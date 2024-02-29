@@ -37,7 +37,7 @@ public class DemoWindowApp {
 
     @Test
     public void TC_01(){
-        driver.findElement(By.xpath("/Pane/Document/MenuBar/MenuItem[1]/Group[@AutomationId='app-menu-&File']")).click();
+        driver.findElement(By.xpath("//Group[@AutomationId='app-menu-&File']")).click();
     }
 
     public void CHeckSomeMethod(){
